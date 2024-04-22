@@ -1,0 +1,54 @@
+#header h1{
+    font-size: 45px;
+    color: blueviolet;
+}
+#header img{
+    width: 380px;
+    height: 200px;
+    margin-top: 10px;
+}
+body{
+    background-color: gainsboro;
+    text-align: center;
+}
+#main-content ul{
+    font-size: small;
+    background-color: blue;
+    color: white;
+    text-align: left;
+    list-style: none;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 20px;
+}
+#main-content ul a{
+    color: black;
+    background-color: rgb(225, 225, 171);
+    border-radius: 4px;
+    padding: 2.5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main-content{
+    width: 750px;
+    padding: 25px;
+    margin: 100px auto 72px auto;
+}
+#footer a{
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 4px;
+    padding: 3.5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#footer p{
+    margin-top: 20px;
+    color: gray;
+}
+.hightlight{
+    color:  yellow;
+    margin-left: 20px;
+    border-left: 4px solid rgb(247, 230, 124);
+    padding-left: 10px;
+}
