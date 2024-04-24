@@ -33,6 +33,7 @@ body{
     width: 750px;
     padding: 25px;
     margin: 100px auto 72px auto;
+    margin-top: 10px;
 }
 #footer a{
     color: black;
