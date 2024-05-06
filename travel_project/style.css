@@ -1,0 +1,84 @@
+#main{
+    background-image: url(./image/ocean.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+#main-content{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    position: relative;
+    width: 400px;
+    padding: 50px 0;
+    top: 300px;
+    margin: 0 auto;
+    background-color: rgba(51, 47, 47, 0.8);
+}
+#main-content h1{
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+#main-content p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+#main-content a{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    padding: 12px 20px;
+}
+#main-content a:hover{
+    background-color: yellowgreen;
+}
+#highlight{
+   padding: 24px;
+   background : linear-gradient(0deg,rgb(227,255,253),rgb(202,243,240));
+}
+#highlight h2{
+    text-align: center;
+    margin: 24px 0;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+#des{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.desti{
+    margin: 0 12px;
+    text-transform: uppercase;
+    width: 20%;
+}
+.desti img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.desti p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+.desti strong{
+    color: rgb(0,160,117);
+}
